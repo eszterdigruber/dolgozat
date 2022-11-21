@@ -17,6 +17,10 @@ namespace dolgozat
             Console.Write("maximálisan megengedett sebbeség (kmph): ");
             string seb = Console.ReadLine();
             int sebesseg = 50;
+            if (25 > sebesseg && sebesseg < 15)
+            {
+                Console.WriteLine("nem haladtad meg a sebességkorlátozást, ezért nincsen büntetés.");
+            }
         }
 
         private static void Feladat1()
