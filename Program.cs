@@ -13,13 +13,14 @@ namespace dolgozat
 
         private static void Feladat2()
         {
+            Console.WriteLine("2.Feladat:");
             Console.Write("maximálisan megengedett sebbeség (kmph): ");
             string sebesseg = Console.ReadLine();
-            Console.WriteLine(sebesseg);
         }
 
         private static void Feladat1()
         {
+            Console.WriteLine("1.Feladat:");
             Console.Write("karakterlánc: ");
             string karakterlanc = Console.ReadLine();
             int szam = rnd.Next(0, 9);
