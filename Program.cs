@@ -15,7 +15,7 @@ namespace dolgozat
         {
             Console.Write("maximálisan megengedett sebbeség (kmph): ");
             string sebesseg = Console.ReadLine();
-            
+
         }
 
         private static void Feladat1()
